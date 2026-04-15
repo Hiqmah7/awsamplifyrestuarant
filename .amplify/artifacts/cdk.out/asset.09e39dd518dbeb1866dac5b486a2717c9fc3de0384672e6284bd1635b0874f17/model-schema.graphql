@@ -1,0 +1,16 @@
+type Restaurant @model @auth(rules: [{allow: owner, ownerField: "owner"},
+  {allow: private, operations: [read]}])
+{
+  name: String!
+  description: String!
+  city: String!
+  cuisine: String
+  rating: Int
+  priceRange: String
+  phoneNumber: String
+  website: AWSURL
+  address: String
+  zipCode: String
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+}

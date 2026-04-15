@@ -1,0 +1,6 @@
+type Restaurant @model @auth(rules: [{allow: private}])
+{
+  name: String!
+  description: String!
+  city: String!
+}

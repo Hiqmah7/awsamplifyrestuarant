@@ -1,0 +1,11 @@
+{
+  "name": "amplify-restaurant-manager",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build step required for Amplify Gen 2'"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.0.0"
+  }
+}
